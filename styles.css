@@ -51,6 +51,11 @@ body {
     margin-top: 1.5em;
 }
 
+.card h1:hover {
+  color: var(--yellow);
+  cursor: pointer;
+}
+
 .card .description {
     color: var(--grey);
     font-size: 1.3rem;
