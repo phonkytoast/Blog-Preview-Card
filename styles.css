@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap");
+
+* {
+  font-family: "Figtree", sans-serif;
+  --yellow: hsl(47, 88%, 63%);
+  --grey: hsl(0, 0%, 50%);
+  --black: hsl(0, 0%, 7%);
+  --white: hsl(0, 0%, 100%);
+}
+
+body {
+  background-color: var(--yellow);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.wrapper {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 30em;
+  background-color: var(--white);
+  padding: 1.5em 1.5em;
+  border-color: var(--black);
+  border: solid 1px;
+  border-radius: 20px;
+
+  box-shadow: 1em 1em var(--black);
+}
+
+.card .illustration {
+    width: 100%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 20px;
+}
+
+.card .tag {
+    display: inline-block;
+    background-color: var(--yellow);
+    padding: .5em 1em;
+    border-radius: 5px;
+    margin: 0;
+    margin-top: 1.5em;
+}
+
+.card .description {
+    color: var(--grey);
+    font-size: 1.3rem;
+    text-align: left;
+}
+
+.profile-section {
+    display: flex;
+    width: 100%;
+}
+
+.pfp-img {
+    display: inline-block;
+    align-self: center;
+    width: 3em;
+    margin-right: 1em;
+}
+
+.name {
+    display: inline;
+    font-weight: 800;
+    font-size: 1.1em;
+}
